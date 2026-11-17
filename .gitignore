@@ -1,0 +1,26 @@
+# Local environment and IDE settings
+.venv/
+.idea/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Model weights and compiled engines (large / regenerable)
+*.pt
+*.onnx
+*.engine
+*.plan
+
+# Generated outputs and failure images
+runs/
+failures/
+
+# Datasets and weights folders: keep only the placeholder files
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Session handout, not part of the project
+*.docx
